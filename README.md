@@ -11,7 +11,7 @@ How does it work?
 Just open spyder.exe and load bitmex_tradingbot.py. (Yes that's all you need to do.)  Due to the nature of Winpython being portable and containerized (easy for me to share), there is no need to install anything.  All you need to do is download and extract the python trading environment from the download link provided. 
 
 What does the trading bot do?
-Demonstrates how to connect to the bitmex api, supports leverage, usage of trading technical indicators, web scraping, very smart logic regarding algo and market state management(most import thing here), order take profits, and order stop losses.
+Demonstrates how to connect to the bitmex api, supports leverage, usage of trading technical indicators, web scraping, very smart logic regarding algo and market state management(most import thing here), order take profits, and order stop losses.  Also included a Debug mode to force states and algorithm values (for testing purposes) to help orient the logic in specific ways in order to simulate potential real life trading conditions that could occur.  
 
 What's the catch? 
 This works on windows. If you are using Linux, then you are smart enough to compile the code. Rip Mac users(unless you are python girl :3 ).
@@ -29,4 +29,4 @@ Click image below to watch Youtube video tutorial:
 | WinPython |   A powerful portable python environment with many useful tools preinstalled. | http://winpython.sourceforge.net/ |
 | CCXT | Obtains Candlestick Data in a nice manner |   https://github.com/ccxt/ccxt  |
 
-Don't need donation. Flexing my iq on you scrubs is more than enough for me :)
+Don't need donation. Free and open source software, you are welcome to modify and share. 
