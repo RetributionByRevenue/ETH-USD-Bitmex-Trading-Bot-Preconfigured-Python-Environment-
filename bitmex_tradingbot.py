@@ -370,3 +370,15 @@ if True:#change from if to while to always loop
    except Exception as e:#always have exceptions while scripts loop for long periods of time. Script can crash if internet connection is lost without exceptions.
      print(str(e))
      print(traceback.format_exc())
+'''
+import urllib3
+from bs4 import BeautifulSoup
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+http = urllib3.PoolManager()
+response = http.request('GET', 'https://www.coingecko.com/en/coins/ethereum')
+eth_string = BeautifulSoup(response.data,features="lxml")  # Note the use of the .data property
+eth_string=str(eth_string)
+eth_string=eth_string[eth_string.find('{"@type":"Offer","price":"'):eth_string.find('","priceCurrency":"USD"}}')]
+eth_string=float(eth_string[26:])
+print(eth_string)
+'''
