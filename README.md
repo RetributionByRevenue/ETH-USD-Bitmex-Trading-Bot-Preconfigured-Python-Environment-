@@ -21,7 +21,7 @@ Fundamentally speaking, this trading bot is a skeleton or a blank canvas. It is 
 Download Link: https://mega.nz/#!LxMTSC4S!x4pZDwHKAx8Y84qv26GEfqZ6RlgWMAtNHYMKwflkbLQ
 
 Click image below to watch Youtube video tutorial:
-[![Link to youtube video](https://github.com/RetributionByRevenue/ETH-USD-Bitmex-Trading-Bot-Preconfigured-Python-Environment-/blob/master/thumbnail.png?raw=true)](https://www.youtube.com/watch?v=qHsNMn1rEzI&lc=z23vulyhro3exp0khacdp43aj24gv4lscs31pfbwpklw03c010c)
+[![Link to youtube video](https://github.com/RetributionByRevenue/ETH-USD-Bitmex-Trading-Bot-Preconfigured-Python-Environment-/blob/master/thumbnail.png?raw=true)](https://www.youtube.com/watch?v=cDTZwG3nqco&t=478s)
 
 | Tech Stack Used   |      Description      |  Link |
 |----------|:-------------:|------:|
